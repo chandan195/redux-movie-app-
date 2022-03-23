@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 // for the selected of the id use "useParam"
 import "./MovieDetail.css"
 import { useDispatch, useSelector } from "react-redux";
+// import Headers from '../Header/Headers';
 import {fetchAsyncMovieOrShowsDetails,
   getSelectedMovieOrShow,
   removeSelectedMovieOrShow,
@@ -26,6 +27,9 @@ const MovieDetail = () => {
       <div>...Loading</div>
     ) : (
       <>
+      {/* <div>
+        <Headers/>
+      </div> */}
         <div className="section-left">
           <div className="movie-title">{data.Title}</div>
           <div className="movie-rating">

@@ -1,17 +1,16 @@
 import React from "react";
 import pnf from "../../images/pnf.jpg"
 import "../PageNotFound/PageNotFound.css"
-import Header from "../Header/Header";
-// import Footer from "./components/Footer/Footer";
+import Headers from "../Header/Headers";
 
 const PageNotFound = () => {
   return (
     
-    <div>  
+    <div> 
       <div>
-        <Header/>
-        </div>  
-      {/* <div>PageNotFound</div> */}
+        <Headers/>
+        </div> 
+      
       <div className="pnf-image">
         <img src={pnf} alt="pnf" />
       </div>
